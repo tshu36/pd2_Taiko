@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>568</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>568</width>
+      <height>320</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/background.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>568</width>
+      <height>320</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/bg.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>568</width>
+      <height>320</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/theend.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="gamestart">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>270</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Game Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="title_end">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>270</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>End</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="restart">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>270</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Restart</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="theendend">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>270</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Main</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="hihi">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>0</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="final_number">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>90</y>
+      <width>111</width>
+      <height>91</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>86</x>
+      <y>91</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>最終成績：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_001">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_002">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/right_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_003">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_004">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/right_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_005">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/right_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_007">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/right_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_006">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_008">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/right_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_010">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_009">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/right_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_011">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/right_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_012">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/right_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_013">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_014">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_015">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_016">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_017">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_018">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="game_019">
+    <property name="geometry">
+     <rect>
+      <x>568</x>
+      <y>94</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/left_button.png</pixmap>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>final_number</zorder>
+   <zorder>theendend</zorder>
+   <zorder>restart</zorder>
+   <zorder>label_2</zorder>
+   <zorder>game_008</zorder>
+   <zorder>game_016</zorder>
+   <zorder>game_017</zorder>
+   <zorder>game_001</zorder>
+   <zorder>game_002</zorder>
+   <zorder>game_014</zorder>
+   <zorder>game_010</zorder>
+   <zorder>game_011</zorder>
+   <zorder>game_015</zorder>
+   <zorder>game_018</zorder>
+   <zorder>game_007</zorder>
+   <zorder>game_006</zorder>
+   <zorder>game_009</zorder>
+   <zorder>game_019</zorder>
+   <zorder>game_012</zorder>
+   <zorder>game_013</zorder>
+   <zorder>game_005</zorder>
+   <zorder>game_004</zorder>
+   <zorder>game_003</zorder>
+   <zorder>hihi</zorder>
+   <zorder>label</zorder>
+   <zorder>gamestart</zorder>
+   <zorder>title_end</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="pics.qrc"/>
+ </resources>
+ <connections/>
+</ui>
